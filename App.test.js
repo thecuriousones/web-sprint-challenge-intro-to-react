@@ -42,4 +42,4 @@ describe("<App />", () => {
     expect(screen.queryByText(/Owen/i)).not.toBeInTheDocument();
     expect(await screen.findByText(/Owen/i)).toBeInTheDocument();
   });
-});
+}); 
